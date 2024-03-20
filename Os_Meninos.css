@@ -1,16 +1,17 @@
 body {
-    background-image: url(porto.jpg);
-    background-repeat: no-repeat;
-    color: floralwhite;
-    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
 }
 
-ul.m {
+.m {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #000; 
-    border-radius: 1em;
 }
 
 li  {
@@ -19,4 +20,8 @@ li  {
 
 html{
     font-family: arial;
+}
+.m > li > a {
+    color: #fff;
+    text-decoration: none;
 }
