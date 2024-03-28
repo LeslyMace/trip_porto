@@ -1,27 +1,100 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .m {
-    color: aliceblue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #000; 
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
 }
 
-li  {
-    float: center;
+li {
+  float: center;
 }
 
-html{
-    font-family: arial;
+html {
+  font-family: arial;
 }
 .m > li > a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+}
+.about_us_img_div {
+  margin: 50px auto;
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_us_img_div img {
+  width: 100%;
+  height: 400px;
+}
+.about_us_body {
+  margin: 50px auto;
+  max-width: 90%;
+}
+.about_us_body_h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.about_us_body_students {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 100px;
+}
+.about_us_body_student {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+.about_us_body_student_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.about_us_body_student_info p,
+.about_us_body_student_info h2 {
+  margin: 0;
+}
+.about_us_body_student_info p {
+    font-size: 20px;
+}
+.about_us_body_student img {
+  width: 20%;
+  border-radius: 2rem;
+}
+@media only screen and (max-width: 900px) {
+  .about_us_img_div {
+    max-width: 100%;
+  }
+  .about_us_img_div img {
+    height: max-content;
+  }
+  .about_us_body_student {
+    flex-direction: column;
+  }
+  .about_us_body_student img {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .about_us_body_student img {
+    width: 100%;
+  }
 }
