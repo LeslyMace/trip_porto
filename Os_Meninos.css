@@ -1,6 +1,12 @@
+html {
+  font-family: arial;
+}
 body {
   margin: 0;
   padding: 0;
+}
+header {
+  border-bottom: 1px #000 solid;
 }
 
 .m {
@@ -14,16 +20,13 @@ body {
   background-color: #000;
 }
 
-li {
-  float: center;
-}
-
-html {
-  font-family: arial;
-}
 .m > li > a {
   color: #fff;
   text-decoration: none;
+  font-size: 25px;
+}
+.m > li {
+  padding: 10px;
 }
 .about_us_img_div {
   margin: 50px auto;
@@ -73,11 +76,27 @@ html {
   margin: 0;
 }
 .about_us_body_student_info p {
-    font-size: 20px;
+  font-size: 20px;
 }
 .about_us_body_student img {
   width: 20%;
   border-radius: 2rem;
+}
+.burgerMenu {
+  display: none;
+}
+#navbarToggleExternalContent > .main > .m {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#navbarToggleExternalContent > .main > .m > li {
+  margin-right: 20px;
+}
+
+.navigation {
+  display: block;
+  width: 100%;
 }
 @media only screen and (max-width: 900px) {
   .about_us_img_div {
@@ -91,6 +110,14 @@ html {
   }
   .about_us_body_student img {
     width: 300px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .burgerMenu {
+    display: block !important;
+  }
+  .navigation {
+    display: none !important;
   }
 }
 @media only screen and (max-width: 340px) {
