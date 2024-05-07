@@ -190,6 +190,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   width: fit-content;
+  width: moz-fit-content;
 }
 /* .footerp {
   margin-left: 10px;
