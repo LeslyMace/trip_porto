@@ -118,6 +118,31 @@ header {
   background-image: url(./Images/script.png);
   background-repeat: no-repeat;
 }
+.gap-5 {
+  gap: 50px;
+}
+.card-img-top {
+  max-width: 400px;
+  height: 200px;
+}
+.card-title {
+  padding: 0.5rem 1.25rem;
+  margin: none !important;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 200px;
+}
+.IT_Topic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
 /* --------------------Footer----------------------- */
 .footerDiv {
   margin-top: 150px;
