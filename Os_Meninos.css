@@ -144,16 +144,14 @@ header {
   margin-bottom: 20px;
 }
 .blog-img-left {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   border-radius: 2em;
-  float: left;
-  margin: 10px 20px 10px 0;
 }
 .blog-img-right {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   border-radius: 2em;
-  float: right;
-  margin: 10px 0 10px 20px;
 }
 .blog-titre {
   margin: 0;
@@ -172,6 +170,8 @@ header {
 .content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
   align-items: center;
   margin-bottom: 20px;
 }
