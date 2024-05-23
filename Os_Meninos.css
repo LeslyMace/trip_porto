@@ -145,25 +145,25 @@ header {
 }
 .blog-img-left {
   width: 300px;
-  border-radius:2em;
+  border-radius: 2em;
   float: left;
   margin: 10px 20px 10px 0;
 }
 .blog-img-right {
   width: 300px;
-  border-radius:2em;
+  border-radius: 2em;
   float: right;
   margin: 10px 0 10px 20px;
 }
 .blog-titre {
-  margin:0;
-  margin-bottom:40px;
+  margin: 0;
+  margin-bottom: 40px;
   text-align: center;
 }
 .blog-text {
-  margin:0;
-  margin-bottom:20px;
-  font-size:20px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
   text-align: center;
 }
 .clear {
@@ -171,6 +171,7 @@ header {
 }
 .content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -194,7 +195,7 @@ header {
 
 .separator::before,
 .separator::after {
-  content: '';
+  content: "";
   flex: 1;
   border-bottom: 7px solid #000;
 }
