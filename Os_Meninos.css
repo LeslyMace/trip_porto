@@ -184,6 +184,7 @@ header {
   border-radius: 2em;
 }
 .blog-img-right {
+  float:right;
   max-width: 300px;
   width: 100%;
   border-radius: 2em;
